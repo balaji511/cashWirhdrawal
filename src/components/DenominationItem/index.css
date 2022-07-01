@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.df {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.btn {
+  width: 80px;
+  height: 30px;
+  margin: 10px;
+}
