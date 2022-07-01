@@ -10,4 +10,7 @@
   width: 80px;
   height: 30px;
   margin: 10px;
+  background-color: aquamarine;
+  border-radius: 5px;
+  border-width: 2px;
 }

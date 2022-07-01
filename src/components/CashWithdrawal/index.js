@@ -19,12 +19,13 @@ class CashWithdrawal extends Component {
         <div className="bgCard">
           <div className="dfs">
             <h1>Sarah Williams</h1>
-            <p>Your Balance</p>
-            <p>{count} </p>
+            <p>
+              Balance <span className="rupees">{count}</span>{' '}
+            </p>
           </div>
-          <p>Withdrawal</p>
+
           <p>CHOOSE SUM (IN RUPEES)</p>
-          <p>In Rupees</p>
+
           <ul className="df">
             {denominationsList.map(each => (
               <DenominationItem
